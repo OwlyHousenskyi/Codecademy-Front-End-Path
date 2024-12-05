@@ -1,0 +1,28 @@
+.App {
+    text-align: center;
+  }
+  
+  .SearchBar input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .Track, .Playlist, .SearchResults {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: #1DB954;
+  }
+  
+  .SavePlaylist button {
+    background-color: #1DB954;
+    color: white;
+  }
+  
