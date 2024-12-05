@@ -1,0 +1,40 @@
+table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+}
+
+h2, h1{
+  text-align: center;
+  color: purple;
+}
+
+th {
+  color: purple;
+  background-color: pink;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: gray;
+    white-space: normal;
+    font-variant: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+    display: block;
+    margin: 8px;
+}

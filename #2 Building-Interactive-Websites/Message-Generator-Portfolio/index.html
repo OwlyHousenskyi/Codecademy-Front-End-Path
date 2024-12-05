@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Message Generator</title>
+</head>
+<body>
+    <h1>Random Message Generator</h1>
+    <p id="message"></p>
+    <button onclick="generateMessage()">Generate Message</button>
+
+    <script>
+        // Array of predefined messages
+        const messages = [
+            "Hello, world!",
+            "Welcome to our website!",
+            "Have a great day!",
+            "Keep up the good work!",
+            "Stay positive and happy!",
+            "Believe in yourself!",
+            "Success is just around the corner.",
+            "You are doing great!",
+            "Never give up!",
+            "Good things are coming your way!"
+        ];
+
+        // Function to generate a random message
+        function generateMessage() {
+            const randomIndex = Math.floor(Math.random() * messages.length);
+            const randomMessage = messages[randomIndex];
+            document.getElementById("message").innerText = randomMessage;
+        }
+    </script>
+</body>
+</html>
